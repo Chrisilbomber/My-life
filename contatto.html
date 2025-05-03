@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Contatto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi sono.html">Chi Sono</a></li>
+      <li><a href="pensieri.html">Pensieri</a></li>
+      <li><a href="lettere.html">Lettere</a></li>
+      <li><a href="contatto.html" class="active">Contatto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Scrivimi</h1>
+    <p>Se una parola ti ha toccato, se un pensiero ti ha ricordato chi sei... scrivimi.</p>
+    <form action="mailto:tuamail@example.com" method="post" enctype="text/plain">
+      <label for="name">Nome:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="message">Messaggio:</label><br>
+      <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+      <input type="submit" value="Invia">
+    </form>
+  </main>
+</body>
+</html>
